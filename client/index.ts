@@ -1,4 +1,4 @@
-import { ISocketClient, SocketActor, SocketClientEmitter, SocketServerEvent, SocketClientEventEmitter, IoSocket, IoClientSocket } from '../types';
+import { ISocketClient, SocketActor, SocketClientEmitter, SocketServerEvent, SocketClientEventEmitter, IoClientSocket } from '../types';
 
 export class SocketClient extends SocketActor implements ISocketClient {
     public onClose: () => void = () => {};
